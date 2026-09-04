@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu · Open Eye Cafe Carrboro</title>
+  <link rel="icon" href="assets/logo.jpg" type="image/jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <style>
+    :root {
+      --wine: #2a4a3a; --wine-deep: #152820; --wine-soft: #3a6a52; --burgundy: #8b5a2b;
+      --cream: #f4f1ea; --paper: #fffcf7; --sand: #e4ddd0; --ink: #141816; --ink-soft: #2e3530;
+      --muted: #5e6860; --gold: #c9a227; --gold-soft: #d4b84a; --white: #fffcf8;
+      --border: rgba(20,24,22,.12); --font-display: "DM Serif Display", Georgia, serif;
+      --font-body: "DM Sans", system-ui, sans-serif;
+    }
+    .preview-banner { background: linear-gradient(90deg, #152820, #2a4a3a 50%, #8b5a2b) !important; }
+</style>
+</head>
+<body>
+  <div class="preview-banner" role="status">Sample redesign preview · not live on openeyecafe.com</div>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <img class="brand-mark" src="assets/logo.jpg" alt="Open Eye Cafe" width="44" height="44" />
+        <span class="brand-text"><span class="brand-name">Open Eye Cafe</span><span class="brand-tag">Menu</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="menu.html" aria-current="page">Menu</a>
+        <a href="visit.html">Visit</a>
+      </nav>
+      <div class="nav-ctas">
+        <a class="btn btn-primary" href="https://www.toasttab.com/open-eye-cafe-101-s-greensboro-st/" target="_blank" rel="noopener">Order</a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu"><span></span></button>
+      </div>
+    </div>
+    <div class="mobile-panel" id="mobile-nav" data-mobile-panel>
+      <a href="index.html">Home</a><a href="menu.html">Menu</a><a href="visit.html">Visit</a>
+      <a href="mailto:info@carrborocoffee.com">info@carrborocoffee.com</a>
+    </div>
+  </header>
+<main>
+  <section class="section">
+    <div class="section-inner">
+      <p class="kicker">Drinks &amp; bites</p>
+      <h1>Full menu lives on Toast.</h1>
+      <p class="lede">Coffee, tea, beer, wine, and cafe food update on Toast — open the live board for today's list and modifiers.</p>
+      <div class="grid-3" style="margin-top:1.5rem">
+        <article class="card"><div class="card-media"><img src="assets/food1.jpg" alt="Cafe drinks" /></div><div class="card-body"><h3>Espresso &amp; drip</h3><p>House coffee program with retail bags when you want to brew at home.</p></div></article>
+        <article class="card"><div class="card-media"><img src="assets/food2.jpg" alt="Patio drinks" /></div><div class="card-body"><h3>Beer &amp; wine</h3><p>Afternoon pours with the patio crowd — ask the bar for today's taps.</p></div></article>
+        <article class="card"><div class="card-media"><img src="assets/food6.jpg" alt="Cafe plate" /></div><div class="card-body"><h3>Bites</h3><p>Order ahead on Toast so your drink is waiting when you walk in.</p></div></article>
+      </div>
+      <div class="pill-row" style="margin-top:2rem">
+        <a class="btn btn-primary" href="https://www.toasttab.com/open-eye-cafe-101-s-greensboro-st/v3" target="_blank" rel="noopener">Open Toast menu</a>
+        <a class="btn btn-secondary" href="mailto:info@carrborocoffee.com">Questions? Email us</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="section-inner footer-note">Sample redesign by Roman Sites · <a href="mailto:info@carrborocoffee.com">info@carrborocoffee.com</a></div>
+</footer>
+<script src="assets/site.js"></script>
+</body></html>

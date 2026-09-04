@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Visit · Open Eye Cafe Carrboro</title>
+  <link rel="icon" href="assets/logo.jpg" type="image/jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <style>
+    :root {
+      --wine: #2a4a3a; --wine-deep: #152820; --wine-soft: #3a6a52; --burgundy: #8b5a2b;
+      --cream: #f4f1ea; --paper: #fffcf7; --sand: #e4ddd0; --ink: #141816; --ink-soft: #2e3530;
+      --muted: #5e6860; --gold: #c9a227; --gold-soft: #d4b84a; --white: #fffcf8;
+      --border: rgba(20,24,22,.12); --font-display: "DM Serif Display", Georgia, serif;
+      --font-body: "DM Sans", system-ui, sans-serif;
+    }
+    .preview-banner { background: linear-gradient(90deg, #152820, #2a4a3a 50%, #8b5a2b) !important; }
+</style>
+</head>
+<body>
+  <div class="preview-banner" role="status">Sample redesign preview · not live on openeyecafe.com</div>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <img class="brand-mark" src="assets/logo.jpg" alt="Open Eye Cafe" width="44" height="44" />
+        <span class="brand-text"><span class="brand-name">Open Eye Cafe</span><span class="brand-tag">Visit</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="visit.html" aria-current="page">Visit</a>
+      </nav>
+      <div class="nav-ctas">
+        <a class="btn btn-primary" href="tel:+19199689410">Call</a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu"><span></span></button>
+      </div>
+    </div>
+    <div class="mobile-panel" id="mobile-nav" data-mobile-panel>
+      <a href="index.html">Home</a><a href="menu.html">Menu</a><a href="visit.html">Visit</a>
+      <a href="mailto:info@carrborocoffee.com">info@carrborocoffee.com</a>
+    </div>
+  </header>
+<main>
+  <section class="section">
+    <div class="section-inner split">
+      <div>
+        <p class="kicker">Find us</p>
+        <h1>101 S Greensboro St, Carrboro</h1>
+        <p class="lede">Downtown Carrboro cafe with patio seating. Order ahead on Toast if you're short on time.</p>
+        <p><strong>Hours:</strong><br>Mon–Fri 7 AM – 6 PM<br>Sat &amp; Sun 8 AM – 6 PM</p>
+        <p><a href="tel:+19199689410">(919) 968-9410</a><br><a href="mailto:info@carrborocoffee.com">info@carrborocoffee.com</a></p>
+        <div class="pill-row">
+          <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=101%20S%20Greensboro%20St%20Carrboro%20NC" target="_blank" rel="noopener">Get directions</a>
+          <a class="btn btn-secondary" href="https://www.toasttab.com/open-eye-cafe-101-s-greensboro-st/" target="_blank" rel="noopener">Order pickup</a>
+        </div>
+      </div>
+      <div class="split-media"><img src="assets/food4.jpg" alt="Open Eye patio" /></div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="section-inner footer-note">Sample redesign by Roman Sites · Raleigh</div>
+</footer>
+<script src="assets/site.js"></script>
+</body></html>
